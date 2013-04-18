@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hangman"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.hangman.MainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.hangman.MainOptions"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_main_options"
+            android:parentActivityName="com.example.hangman.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.hangman.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.hangman.Start"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_start"
+            android:parentActivityName="com.example.hangman.MainOptions" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.hangman.MainOptions" />
+        </activity>
+        <activity
+            android:name="com.example.hangman.Score"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_score"
+            android:parentActivityName="com.example.hangman.MainOptions" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.hangman.MainOptions" />
+        </activity>
+        <activity
+            android:name="com.example.hangman.StartNext"
+            android:label="@string/title_activity_start_next"
+            android:parentActivityName="com.example.hangman.Start" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.hangman.Start" />
+        </activity>
+        <activity
+            android:name="com.example.hangman.SelectLanguage"
+            android:label="@string/title_activity_select_language"
+            android:parentActivityName="com.example.hangman.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.hangman.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
