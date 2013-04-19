@@ -25,5 +25,5 @@ Muestra la consulta de todos los jugadores que han guardado su nombre juntcon su
 </ul>
 
 ##Proximas Implementaciones
-1.- Vincular cuenta de Facebook para registrar el usuario.
-2.- Mejoras en la interfaz, utilizar animaciones.
+1. Vincular cuenta de Facebook para registrar el usuario.
+2. Mejoras en la interfaz, utilizar animaciones.
