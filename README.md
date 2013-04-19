@@ -23,3 +23,7 @@ Muestra la consulta de todos los jugadores que han guardado su nombre juntcon su
 <li>Al iniciar la Aplicacion se utiliza sonido de fondo, en los botones y mensajes emergentes se utilizan sonidos muy cortos.</li>
 <li>Se utilizan ventanas emergentes cuando el jugador decide cancelar su juego, cuando ha perdido, cuando presiona un boton, o cuando decide salir del juego.</li>
 </ul>
+
+##Proximas Implementaciones
+1.- Vincular cuenta de Facebook para registrar el usuario.
+2.- Mejoras en la interfaz, utilizar animaciones.
