@@ -27,3 +27,8 @@ Muestra la consulta de todos los jugadores que han guardado su nombre juntcon su
 ##Proximas Implementaciones
 1. Vincular cuenta de Facebook para registrar el usuario.
 2. Mejoras en la interfaz, utilizar animaciones.
+
+##Lenguajes Utilizados
+* Java
+* XML
+* SQL
