@@ -27,8 +27,11 @@ Muestra la consulta de todos los jugadores que han guardado su nombre juntcon su
 ##Proximas Implementaciones
 1. Vincular cuenta de Facebook para registrar el usuario.
 2. Mejoras en la interfaz, utilizar animaciones.
-
+3. Pruebas en diferentes tipos de dispositivos
 ##Lenguajes Utilizados
 * Java
 * XML
 * SQL
+
+##Dispositivos probados
+* Motorola Atrix con 2.3.7(GingerBread)
